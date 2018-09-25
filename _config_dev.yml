@@ -1,6 +1,6 @@
 
 # The name of your website.
-name: News-project
+name: Holo Alfa
 
 description:
 
@@ -11,17 +11,19 @@ description:
   subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
 
 author:
-  name: Alan Rice # Change this!
+  name: Dr. Jekyll # Change this!
 
   # Necessary for contact page
-  email: hello@email.com # Change this!
+  email: your@email.com # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
   info:
 
-url: http://alanrice.ie
-baseurl: "/news-project"
+# The URL of the homepage of your site (without trailing slash). Leave this
+# empty when you run Jekyll locally.
+url: http://localhost:4000
+baseurl: ""
 
 # language attribute in <html> element.
 lang: en
@@ -36,10 +38,8 @@ lang: en
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
 display-social-icons: false
-# If you want social links to open in a new tab, set this as true
-social-icons-open-newtab: true
 
-footer-text: Theme based on <a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme.
+footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
